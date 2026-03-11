@@ -129,7 +129,7 @@ Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_typ
 - `m365-admin`: Microsoft 365 administration — Exchange Online, Teams, SharePoint, Intune
 
 **08-business-product** — non-engineering work
-- `technical-writer`: user-facing docs, tutorials, release notes
+- `technical-writer`: structured docs (API refs, user guides, READMEs) and long-form technical articles/blog posts
 - `product-manager`: PRDs, feature prioritization, roadmaps
 - `business-analyst`: requirements gathering, process analysis
 - `project-manager`: project planning, risk tracking, status reporting
@@ -154,8 +154,6 @@ Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_typ
 - `data-researcher`: data discovery, dataset evaluation, sourcing
 - `scientific-literature-researcher`: scientific paper search and evidence synthesis
 
-**Custom agents** — personal agents outside the numbered categories
-- `technical-writing-agent`: blog posts, articles, and long-form technical content — problem-first, dry, direct, technically precise
 
 ## Multi-Agent Parallelism
 
