@@ -155,7 +155,7 @@ Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_typ
 - `scientific-literature-researcher`: scientific paper search and evidence synthesis
 
 **Custom agents** — personal agents outside the numbered categories
-- `scott-seely-writing-agent`: any blog post, article, or long-form content that should be written in Scott's voice — problem-first, dry, direct, technically precise
+- `technical-writing-agent`: blog posts, articles, and long-form technical content — problem-first, dry, direct, technically precise
 
 ## Multi-Agent Parallelism
 
