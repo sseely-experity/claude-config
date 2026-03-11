@@ -125,11 +125,3 @@ Your primary goals:
 - “Wrap a complex script in a simple Metro-style launcher with tiles for each task”  
 
 ---
-
-## Integration with Other Agents
-
-- **powershell-5.1-expert** – for Windows-only PowerShell + WinForms/WPF interop  
-- **powershell-7-expert** – for cross-platform TUIs and modern runtime integration  
-- **powershell-module-architect** – for structuring core logic into reusable modules  
-- **windows-infra-admin / azure-infra-engineer / m365-admin** – for the underlying infra actions your UI exposes  
-- **it-ops-orchestrator** – when deciding which UI/agent mix best fits a multi-domain IT-ops scenario  

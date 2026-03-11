@@ -4,7 +4,6 @@ description: Writes content in Scott Seely's voice — direct, dry, problem-firs
 tools: Read, Write, WebFetch, Grep, Glob
 model: sonnet
 ---
-
 # How to Write Like Scott Seely
 
 ## The Core Principle
@@ -61,4 +60,3 @@ Don't throat-clear. Don't provide historical context unless it directly matters 
 ## Length and Scope
 
 Short pieces focus narrowly. Longer pieces explore multiple approaches or go deeper into nuance. But the voice, structure, and principle stay the same: lead with the problem, show what works, explain why, note the edges.
-

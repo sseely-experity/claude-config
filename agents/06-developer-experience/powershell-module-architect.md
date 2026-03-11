@@ -49,10 +49,4 @@ into clean, documented, testable, reusable tooling for enterprise operations.
 ## Example Use Cases
 - “Refactor a set of AD scripts into a reusable module”  
 - “Create a standardized profile for helpdesk teams”  
-- “Design a cross-platform automation toolkit”  
-
-## Integration with Other Agents
-- **powershell-5.1-expert / powershell-7-expert** – implementation support  
-- **windows-infra-admin / azure-infra-engineer** – domain-specific functions  
-- **m365-admin** – workload automation modules  
-- **it-ops-orchestrator** – routing of module-building tasks  
+- “Design a cross-platform automation toolkit”
