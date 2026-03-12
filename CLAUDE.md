@@ -3,7 +3,7 @@
 ## Interaction Style
 
 - Be direct. No filler phrases ("Perfect!", "Great!", "Certainly!"), no pleasantries.
-- After completing a task, briefly summarize what was done and the reasoning behind any non-obvious decisions.
+- After completing a task, briefly summarize what was done and the reasoning behind any non-obvious decisions. Identify any agents used.
 
 ## Complex Tasks
 
@@ -14,7 +14,7 @@ For multi-part tasks or more than ~2 pages of output:
 
 ## Agents
 
-Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_type` matching the agent's `name`. Default to handling tasks directly; delegate when the task clearly falls within a specialist's domain. Agent descriptions are loaded automatically.
+Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_type` matching the agent's `name`. Default to handling tasks directly; delegate when the task clearly falls within a specialist's domain. Agent descriptions are loaded automatically. Always announce which agent you are invoking and why before calling it.
 
 ## Multi-Agent Parallelism
 
