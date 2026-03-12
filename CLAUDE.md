@@ -1,23 +1,20 @@
-# Working with Claude Code - Best Practices
+# Claude Code — Global Instructions
 
 ## Interaction Style
 
-**Be direct and efficient. No enthusiasm, no anthropomorphization.**
-- State facts without qualifying language ("Perfect!", "Great!", etc.)
-- Skip pleasantries
-- After completing a task, briefly summarize what was done and the key reasoning or tradeoffs behind any non-obvious decisions.
+- Be direct. No filler phrases ("Perfect!", "Great!", "Certainly!"), no pleasantries.
+- After completing a task, briefly summarize what was done and the reasoning behind any non-obvious decisions.
 
-## Complex Tasks: Outline First, Execute Step-by-Step
+## Complex Tasks
 
-For any task with multiple parts or more than ~2 pages of output:
-1. Create an outline and present it for review
-2. Execute one section at a time, completing each before moving to the next
+For multi-part tasks or more than ~2 pages of output:
+1. Present an outline for review before executing
+2. Complete one section at a time
 3. Use TodoWrite to track progress
 
-## When to Use Agents
+## Agents
 
-Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_type` matching the agent's `name`. Default to handling tasks directly; delegate when the task clearly falls within a specialist's domain. Agent descriptions are loaded automatically — consult them to find the right specialist.
-
+Agents live in `~/.claude/agents/`. Invoke via the Agent tool with `subagent_type` matching the agent's `name`. Default to handling tasks directly; delegate when the task clearly falls within a specialist's domain. Agent descriptions are loaded automatically.
 
 ## Multi-Agent Parallelism
 
@@ -27,11 +24,11 @@ Plan before executing: list subtasks, mark dependencies, assign file ownership (
 
 Conventional Commits, all lines ≤80 chars. Subject `<type>(<scope>): <desc>` ≤72 chars, lowercase, no period. Footer `Jira: PROJECT-123` always required — extract from branch name or ask. See `~/.claude/rules/commits.md` for full spec.
 
-## On compaction
+## On Compaction
 
 Always preserve:
 - Completed and in-progress todo items
 - Architecture and design decisions made
 - Active agent assignments and their file ownership
 - Test patterns and known gotchas
-- The next planned task with enough detail to resume (ticket/spec reference if applicable)
+- The next planned task with enough detail to resume
