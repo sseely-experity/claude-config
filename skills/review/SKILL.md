@@ -32,6 +32,8 @@ Review the code specified in $ARGUMENTS (or recent git diff if no argument given
 - No duplicated logic (DRY)
 - Complexity is justified
 - No dead code left in
+- No magic strings or numbers — raw literals that encode business meaning should be named constants
+- Prefer a shared constants file over local/inline constant definitions; flag any constants that belong in a shared location
 
 ### Tests
 - New behavior has test coverage
